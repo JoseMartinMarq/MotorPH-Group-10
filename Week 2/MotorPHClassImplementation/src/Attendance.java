@@ -2,8 +2,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Duration;
 
-// Constructor
-
 public class Attendance {
 
     // Attributes
@@ -14,6 +12,8 @@ public class Attendance {
     private LocalDateTime timeOut;
     private int overtimeHours;
 
+    // Constructor
+    
     public Attendance(Employee employee, LocalDate date) {
         this.employee = employee;
         this.date = date;
